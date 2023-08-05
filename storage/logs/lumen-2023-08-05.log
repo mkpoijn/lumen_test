@@ -1,0 +1,22 @@
+[2023-08-05 01:43:38] local.ERROR: Class "App\Http\Controllers\Controller" not found {"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\Controller\" not found at C:\\laragon\\www\\lumen_test\\app\\Http\\Controllers\\Controller.php:8)
+[stacktrace]
+#0 C:\\laragon\\www\\lumen_test\\vendor\\composer\\ClassLoader.php(576): include()
+#1 C:\\laragon\\www\\lumen_test\\vendor\\composer\\ClassLoader.php(427): Composer\\Autoload\\{closure}('C:\\\\laragon\\\\www\\\\...')
+#2 C:\\laragon\\www\\lumen_test\\app\\Http\\Controllers\\CuacaController.php(9): Composer\\Autoload\\ClassLoader->loadClass('App\\\\Http\\\\Contro...')
+#3 C:\\laragon\\www\\lumen_test\\vendor\\composer\\ClassLoader.php(576): include('C:\\\\laragon\\\\www\\\\...')
+#4 C:\\laragon\\www\\lumen_test\\vendor\\composer\\ClassLoader.php(427): Composer\\Autoload\\{closure}('C:\\\\laragon\\\\www\\\\...')
+#5 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Http\\\\Contro...')
+#6 C:\\laragon\\www\\lumen_test\\vendor\\illuminate\\container\\Container.php(912): ReflectionClass->__construct('App\\\\Http\\\\Contro...')
+#7 C:\\laragon\\www\\lumen_test\\vendor\\illuminate\\container\\Container.php(795): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#8 C:\\laragon\\www\\lumen_test\\vendor\\illuminate\\container\\Container.php(731): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array)
+#9 C:\\laragon\\www\\lumen_test\\vendor\\laravel\\lumen-framework\\src\\Application.php(327): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#10 C:\\laragon\\www\\lumen_test\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->make('App\\\\Http\\\\Contro...')
+#11 C:\\laragon\\www\\lumen_test\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(284): Laravel\\Lumen\\Application->callControllerAction(Array)
+#12 C:\\laragon\\www\\lumen_test\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#13 C:\\laragon\\www\\lumen_test\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#14 C:\\laragon\\www\\lumen_test\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(431): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\laragon\\www\\lumen_test\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#16 C:\\laragon\\www\\lumen_test\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#17 C:\\laragon\\www\\lumen_test\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#18 {main}
+"} 
